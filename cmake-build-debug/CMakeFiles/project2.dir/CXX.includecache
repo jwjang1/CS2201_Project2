@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kis/CLionProjects/project2/Tweet.h
+string
+-
+
+/Users/kis/CLionProjects/project2/TweetMgr.h
+Tweet.h
+/Users/kis/CLionProjects/project2/Tweet.h
+
+/Users/kis/CLionProjects/project2/TweetMgrTest.cpp
+iostream
+-
+string
+-
+stdexcept
+-
+TweetMgr.h
+/Users/kis/CLionProjects/project2/TweetMgr.h
+
